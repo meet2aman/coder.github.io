@@ -1,0 +1,50 @@
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+
+}
+.justify-between{
+    justify-content: space-between;
+}
+.btn{
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: var(--primary);
+    font-family: var(--Comfortaa);
+    border-radius: 5px;
+}
+.flex-1{
+    flex: 1;
+}
+.justify-center{
+    justify-content: center;
+}
+
+.card img{
+    height: 75px;
+    width: 75px;
+    margin: 14px;
+    padding: 13px;
+    background: var(--primary);
+    
+}
+.btn-primary{
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+section.freelancer{
+    text-align: center;
+    /* justify-content: center; */
+    background:linear-gradient(rgba(0 ,0 ,0 ,0.7),rgba(0 ,0 ,0 ,0.7)),url(../images/camera.png);
+    color: var(--pure);
+    clip-path: polygon(0 0, 100% 0, 100% 98%, 67% 80%, 0 98%);
+    padding-bottom: 14rem;
+}

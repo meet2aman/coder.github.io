@@ -1,0 +1,8 @@
+gsap.from('.lullu',{duration : 1, y:'-100%', ease:'bounce'})
+gsap.from('.botle', {duration : 1, opacity: 0, delay: .6, stagger: .2})
+gsap.from('.about-me-img', {duration : 2, x:'-250%',opacity: 0, ease:'expo.out'})
+gsap.from('.fix', {duration : 2, x:'250%',opacity: 0, ease:'expo.out'})
+gsap.from('.six', {duration : 2, x:'250%',opacity: 0, ease:'expo.out',delay:1})
+gsap.from('.dix', {duration : 2, x:'250%',opacity: 0, ease:'expo.out', delay: .3})
+gsap.from('.nix', {duration : 2, x:'250%',opacity: 0, ease:'expo.out', delay: .7})
+gsap.from('.col', {duration : 2, x:'250%',opacity: 0, ease:'back', delay: 1})
